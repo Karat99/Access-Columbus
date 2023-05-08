@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #ffffff;
+}
+
+/*Top Navbar*/
+.navbar{
+    background-color: #33687b !important;
+}
+.navbar img{
+    margin-top: 0 auto;
+    margin-left: 2%;
+}
+
+/*Hero*/
+.jumbotron{
+    width: 100%;
+    background-color: #3e7b91;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 0;
+}
+.jumbotron img{
+    width: 100%;
+}
