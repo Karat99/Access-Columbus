@@ -27,14 +27,17 @@ body{
     top: 30%;
     right: 5%;
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 40px;
+    font-size: 70px;
     font-weight: 600;
+    text-align: center;
     letter-spacing: -2px;
     color: #ffffff;
 }
 .btn{
     width: 300px;
     height: 70px;
+    background-color: #C8E4FF !important;
+    line-height: 40% !important;
 }
 .btn img{
     height: 50px;
@@ -44,12 +47,12 @@ body{
 .apple{
     position: absolute;
     top: 60%;
-    left: 15%;
+    left: 10%;
 }
 .google{
     position: absolute;
     top: 75%;
-    left: 15%;
+    left: 10%;
 }
 
 /*Content*/
@@ -82,7 +85,70 @@ body{
 }
 .card{
     margin: 2%;
+    margin-bottom: 5%;
 }
-.card img{
-    height: 500px;
+
+/*Footer*/
+.cityFooter{
+    background-image: url(../images/cbus\ night.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 0;
+    right: 0;
+    height: 272px;
+    width: 100%;
+}
+.cityFooter div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.cityFooter img{
+    margin-left: 25%;
+    margin-top: 7%;
+    height: 100px;
+}
+.cityFooter p{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 7.5%;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 430px) {
+    .navbar img{
+        height: 40px;
+    }
+    .jumbotron h1{
+        position: absolute;
+        top: 22%;
+        right: 5%;
+        font-size: 22px;
+    }
+    .btn{
+        width: 100px;
+        height: 25px;
+        font-size: 8px !important;
+        text-align: right !important;
+    }
+    .btn img{
+        height: 10px;
+        width: 10px;
+        margin-left: 0 !important;
+    }
+    .apple{
+        position: absolute;
+        top: 30%;
+        left: 8%;
+    }
+    .google{
+        position: absolute;
+        top: 35%;
+        left: 8%;
+    }
 }
