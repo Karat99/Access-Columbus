@@ -15,7 +15,7 @@ body{
 /*Hero*/
 .jumbotron{
     width: 100%;
-    background-color: #3e7b91;
+    background-color: #C1133D;
     padding: 1%;
     border-radius: 0;
 }
@@ -63,4 +63,26 @@ body{
     letter-spacing: -2px;
     color: #282828;
     margin-left: 7%;
+}
+.content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 7%;
+    width: 86%;
+}
+
+/*Image Cards*/
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    margin: 2%;
+}
+.card img{
+    height: 500px;
 }
