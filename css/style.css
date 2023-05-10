@@ -86,6 +86,7 @@ body{
 .card{
     margin: 2%;
     margin-bottom: 5%;
+    border-color: white !important;
 }
 
 /*Footer*/
